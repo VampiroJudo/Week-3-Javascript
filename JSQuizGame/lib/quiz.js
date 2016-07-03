@@ -16,7 +16,7 @@ class Quiz {
 
 	}
 
-	 //goes through the questions and determines if the answers are correct and were to proceed after. 
+	 //goes through the questions and determines if the answers are correct and where to proceed after. 
 	checkAnswer (err, answer){
 		if (this.list[this.currentQ].answers === answer){
 			this.list[this.currentQ].questions += 1; 
